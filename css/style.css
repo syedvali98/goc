@@ -4,6 +4,43 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ 
+ .faq .panel-heading {
+  cursor: pointer;
+}
+.faq .faq-toggle.collapsed::before {
+  font-family: "Ionicons";
+  content: "\f218";
+  -webkit-transition: 0.5s linear ease-out;
+          transition: 0.5s linear ease-out;
+  position: absolute;
+  left: 15px;
+}
+.faq .faq-toggle::before {
+  position: absolute;
+  left: 15px;
+  font-family: "Ionicons";
+  content: "\f209";
+}
+.faq .panel-group .panel + .panel {
+  margin-top: 15px;
+}
+.faq .panel-default > .panel-heading {
+  color: #FFF;
+  background-color: #000000;
+  border-color: #000;
+  border-radius: 0;
+  padding: 0;
+}
+.faq .panel-default > .panel-heading a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  padding: 15px 15px 15px 35px;
+  color: white;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
