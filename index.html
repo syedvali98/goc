@@ -13,6 +13,9 @@
 
   <link rel="stylesheet" href="css/particle.css">
 
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
@@ -20,6 +23,8 @@
   <link rel="stylesheet" href="css/aos.css">
 
   <link rel="stylesheet" href="css/ionicons.min.css">
+
+  <!-- Ionicons Fonts Css -->
 
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
   <link rel="stylesheet" href="css/jquery.timepicker.css">
@@ -38,9 +43,9 @@
     </div>
   </div>
 
+   <div id="particles-js"></div>
 
-  <!-- particles.js container -->
-  <div id="particles-js"></div>
+
   <div class="page">
     <!--
     <nav id="colorlib-main-nav" role="navigation">
@@ -67,11 +72,11 @@
 
     <div id="colorlib-page">
       <header>
-        <div class="container fixed-top">
+        <div id="navbar" class="container-fluid  fixed-top">
           <div style="background: black;" class="row">
             <div class="col-md-12">
               <div class="colorlib-navbar-brand">
-                <a class="colorlib-logo" href="index.html"><span class="logo-img"></span>Game of Codes</a>
+                <a style="color: #39ff14;" class="colorlib-logo" href="index.html"><span class="logo-img"></span>Game of Codes</a>
               </div>
               <!--<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>-->
             </div>
@@ -79,30 +84,22 @@
         </div>
       </header>
 
-      <section class="home-slider owl-carousel js-fullheight">
+      <section class="home-slider rellax owl-carousel js-fullheight">
         <div class="slider-item js-fullheight">
           <div class="overlay"></div>
           <div class="container">
-            <div class="row slider-text align-items-center text-center justify-content-center"
-              data-scrollax-parent="true">
-              <div class="col-md-7 col-10 mx-auto ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+            <div style="padding-top: 35vh;" class="row align-items-center text-center justify-content-center">
+              <div class="col-md-7">
                 <img src="https://fontmeme.com/permalink/200212/1f982bdd432a023f5e29dbf36891b4dd.png" class="mb-3"
                   data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                <p><a href="#" class="scroll"></a>PRESENTS</p>
-
+                <p style="color: #39ff14;"><a href="#" class="scroll"></a>PRESENTS</p>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div class="slider-item js-fullheight">
-          <div class="overlay"></div>
-          <div class="container">
-            <div class="row slider-text align-items-center text-center justify-content-center"
-              data-scrollax-parent="true">
-              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                <h1 class="mb-3" data-scrollax="properties: {translateY: '20%', opacity: 1.6}">&lt;HACKATHON 2020/&gt;
-                </h1>
+            <div style="margin-top: -38vh;"
+              class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
+              <div class="col-md-10 col-10 mx-auto ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <h1 class="mb-3" data-scrollax="properties: {translateY: '20%', opacity: 1.6}">
+                  &lt;HACKATHON 2020/&gt;
               </div>
             </div>
           </div>
@@ -110,7 +107,7 @@
       </section>
       <!-- END slider -->
 
-      <section id="about" class="ftco-section about-section">
+      <section id="about" class="ftco-section rellax about-section">
         <div class="container">
           <div class="row d-flex" data-scrollax-parent="true">
             <div class="col-md-4 author-img" data-scrollax=" properties: { translateY: '-70%'}"></div>
@@ -120,29 +117,124 @@
                 <h1 class="bold-text">About</h1>
                 <div class="p-5">
                   <h2 class="mb-5">GAME OF CODES</h2>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-                    the blind texts. Separated they live in.</p>
-                  <p><a href="#">Checkout my resume</a></p>
+                  <p>Game of codes is a student run coding club at ISL engineering college. The aim of our club is to
+                    provide opportunities to aspiring programmers through workshops, hackathon, events etc.
+                    Hackathon 2020 is an initiative to provide young coders and programmers a platform to inculcate
+                    their skills and harness their creativity and serve as a foundation of great ideas.
+                  </p>
                   <ul class="ftco-footer-social list-unstyled mt-4">
                     <li><a href="#"><span class="icon-twitter"></span></a></li>
                     <li><a href="#"><span class="icon-facebook"></span></a></li>
                     <li><a href="#"><span class="icon-instagram"></span></a></li>
                   </ul>
-                  <h5>Contact me here!</h5>
-                  <p>Email: <a href="#">beckham@email</a></p>
-                  <p>Phone: <a href="#">(123)-456-789</a></p>
                 </div>
+              </div>
+              <h5 style="margin-top: -10vh !important;" class="p-5">Register <a href="#register">here!</a></h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="participate" class="ftco-section rellax about-section">
+        <div id="fh5co-resume" class="fh5co-bg-color">
+          <div class="container">
+            <div class="row d-flex" data-scrollax-parent="true">
+              <div class="col-md-6 wrap ftco-animate">
+                <div class="about-desc">
+                  <div class="p-5">
+                    <h1 class="mb-5">How To Participate</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-md-offset-0">
+                <ul class="timeline">
+                  <li class="animate-box timeline-unverted">
+                    <div class="timeline-badge"><i class="icon-arrow-down"></i></div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h3 class="timeline-title">Team Up</h3>
+                        <span class="company">ISL Engineering College</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted animate-box">
+                    <div class="timeline-badge"><i class="icon-arrow-down"></i></div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h3 class="timeline-title">Register</h3>
+                        <span class="company">Bharathi Vidyalaya College of Education and Training<br>(Attapur)</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="animate-box timeline-unverted">
+                    <div class="timeline-badge"><i class="icon-arrow-down"></i></div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <h3 class="timeline-title">Attend</h3>
+                        <span class="company">Sunshine Preschool and Daycare<br>(Tolichowki and
+                          Attapur)</span>
+                      </div>
+                    </div>
+                  </li>
+                  <br>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="ftco-section">
+
+
+      <section id="venue" style="padding-top:25vh" class="ftco-section about-section">
+        <div class="container">
+          <div class="row d-flex" data-scrollax-parent="true">
+            <div class="col-md-6 mx-auto wrap ftco-animate">
+              <div class="about-desc text-center">
+                <div class="p-5">
+                  <h1 class="mb-5">Venue</h1>
+                  <h3>ISL Engineering College, Bandlaguda, Hyderabad.</h3>
+                  <p><a href="#">Google Maps Link</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+
+      <section style="margin: -20vh 0;" class="ftco-section">
         <div class="container">
           <div class="row justify-content-center mb-5 pb-5">
             <div class="col-md-7 text-center heading-section ftco-animate">
-              <h2>THEMES</h2>
+              <h1 class="mb-5">Themes</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-money"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">Fin-Tech</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-heart"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">Health Care</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-chat"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">VUI</h3>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row">
@@ -150,51 +242,15 @@
               <div class="media block-6 services p-3 py-4 d-block text-center">
                 <div class="icon mb-3"><span class="icon-layers"></span></div>
                 <div class="media-body">
-                  <h3 class="heading">UI/UX Design</h3>
-                  <h3 class="heading">Mobile App Design</h3>
-                  <h3 class="heading">Responsive Design</h3>
+                  <h3 class="heading">Smart City</h3>
                 </div>
               </div>
             </div>
             <div class="col-md-4 d-flex align-self-stretch ftco-animate">
               <div class="media block-6 services p-3 py-4 d-block text-center">
-                <div class="icon mb-3"><span class="icon-gears"></span></div>
+                <div class="icon mb-3"><span class="icon-lock"></span></div>
                 <div class="media-body">
-                  <h3 class="heading">Product Strategy</h3>
-                  <h3 class="heading">Design Sprints</h3>
-                  <h3 class="heading">UX Strategy</h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-              <div class="media block-6 services p-3 py-4 d-block text-center">
-                <div class="icon mb-3"><span class="icon-code"></span></div>
-                <div class="media-body">
-                  <h3 class="heading">HTML/CSS</h3>
-                  <h3 class="heading">Prototyping</h3>
-                  <h3 class="heading">User Testing</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-              <div class="media block-6 services p-3 py-4 d-block text-center">
-                <div class="icon mb-3"><span class="icon-layers"></span></div>
-                <div class="media-body">
-                  <h3 class="heading">UI/UX Design</h3>
-                  <h3 class="heading">Mobile App Design</h3>
-                  <h3 class="heading">Responsive Design</h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-              <div class="media block-6 services p-3 py-4 d-block text-center">
-                <div class="icon mb-3"><span class="icon-gears"></span></div>
-                <div class="media-body">
-                  <h3 class="heading">Product Strategy</h3>
-                  <h3 class="heading">Design Sprints</h3>
-                  <h3 class="heading">UX Strategy</h3>
+                  <h3 class="heading">BlockChain</h3>
                 </div>
               </div>
             </div>
@@ -202,9 +258,7 @@
               <div class="media block-6 services p-3 py-4 d-block text-center">
                 <div class="icon mb-3"><span class="icon-code"></span></div>
                 <div class="media-body">
-                  <h3 class="heading">HTML/CSS</h3>
-                  <h3 class="heading">Prototyping</h3>
-                  <h3 class="heading">User Testing</h3>
+                  <h3 class="heading">AI/ML</h3>
                 </div>
               </div>
             </div>
@@ -212,10 +266,10 @@
         </div>
       </section>
 
-      <section style="margin-top: -45vh;" class="ftco-section about-section">
+      <section style="margin-top: -25vh;" class="ftco-section about-section">
         <div class="container">
           <div class="row d-flex my-5" data-scrollax-parent="true">
-            <div class="row d-flex justify-content-end mt-5">
+            <div class="row d-flex justify-content-center mt-5">
               <div class="col-md-10 col-11">
                 <div class="exp mt-5 ftco-animate">
                   <h2 class="mb-4">Agenda</h2>
@@ -265,39 +319,28 @@
         </div>
       </section>
 
-      <section class="ftco-section ftco-counter" id="section-counter">
+      <section style="margin-top: -15vh;" class="ftco-section ftco-counter" id="section-counter">
         <div class="container">
           <div class="row justify-content-center mb-5 pb-5">
             <div class="col-md-7 text-center heading-section ftco-animate">
-              <h2>Prizes</h2>
+              <h1 class="mb-5">Prizes</h1>
             </div>
           </div>
           <div class="row d-flex justify-content-start">
-            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+            <div class="col-md-2 col-sm-5 counter-wrap ftco-animate">
               <div class="block-18">
-                <div class="text">
-                  <span class="ftco-label">Clients</span>
-                  <strong class="number" data-number="420">0</strong>
-                </div>
+
               </div>
             </div>
           </div>
           <div class="row d-flex justify-content-center">
-            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+            <div class="col-md-8 col-sm-5 counter-wrap ftco-animate">
               <div class="block-18">
-                <div class="text">
-                  <span class="ftco-label">Project done</span>
-                  <strong class="number" data-number="890">0</strong>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row d-flex justify-content-end">
-            <div class="col-md-5 counter-wrap ftco-animate">
-              <div class="block-18">
-                <div class="text">
-                  <span class="ftco-label">Cups of coffee</span>
-                  <strong class="number" data-number="1000">0</strong>
+                <div class="text text-center">
+                  <span class="ftco-label text-center">Cash Prizes and Goodies worth</span>
+                  <strong style="color:#39ff14" class="number">₹</strong>
+                  <strong style="color:#39ff14" class="number" data-number="25000">0</strong>
+                  <span class="ftco-label text-center">to be Won.</span>
                 </div>
               </div>
             </div>
@@ -330,176 +373,7 @@
 
 
 
-
-
-      <section id="faq" class="section faq">
-        <div class="container p-5">
-          <div class="row">
-            <div class="col-md-12 text-center heading-section ftco-animate">
-              <h2 class="p-5">FAQS</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingOne">
-                    <h4 class="panel-title">
-                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                        href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> What is the price of the
-                        ticket ?</a>
-                    </h4>
-                  </div>
-
-                  <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                    <div class="panel-body">
-                      <h3>Hello</h3>
-                      <p>Lorem Ipsum</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingTwo">
-                    <h4 class="panel-title">
-                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                        href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> What is included in my
-                        ticket ?</a>
-                    </h4>
-                  </div>
-
-                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                    <div class="panel-body">Hello</div>
-                  </div>
-                </div>
-
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingThree">
-                    <h4 class="panel-title">
-                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                        href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Office address ?</a>
-                    </h4>
-                  </div>
-
-                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                    aria-labelledby="headingThree">
-                    <div class="panel-body">Hello</div>
-                  </div>
-                </div>
-
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingFour">
-                    <h4 class="panel-title">
-                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                        href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> How should I dress
-                        ?</a>
-                    </h4>
-                  </div>
-
-                  <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                    <div class="panel-body">Hello</div>
-                  </div>
-                </div>
-
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingFive">
-                    <h4 class="panel-title">
-                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                        href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> I have specific
-                        questions that are not addressed here. Who can help me ?</a>
-                    </h4>
-                  </div>
-
-                  <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                    <div class="panel-body">Hello</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingOne">
-                    <h4 class="panel-title">
-                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                        href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> What is the price of the
-                        ticket ?</a>
-                    </h4>
-                  </div>
-
-                  <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                    <div class="panel-body">
-                      <h3>Hello</h3>
-                      <p>Lorem Ipsum</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingTwo">
-                    <h4 class="panel-title">
-                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                        href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> What is included in my
-                        ticket ?</a>
-                    </h4>
-                  </div>
-
-                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                    <div class="panel-body">Hello</div>
-                  </div>
-                </div>
-
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingThree">
-                    <h4 class="panel-title">
-                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                        href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Office address ?</a>
-                    </h4>
-                  </div>
-
-                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                    aria-labelledby="headingThree">
-                    <div class="panel-body">Hello</div>
-                  </div>
-                </div>
-
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingFour">
-                    <h4 class="panel-title">
-                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                        href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> How should I dress
-                        ?</a>
-                    </h4>
-                  </div>
-
-                  <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                    <div class="panel-body">Hello</div>
-                  </div>
-                </div>
-
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingFive">
-                    <h4 class="panel-title">
-                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                        href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> I have specific
-                        questions that are not addressed here. Who can help me ?</a>
-                    </h4>
-                  </div>
-
-                  <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                    <div class="panel-body">Hello</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-      </section>
-
-
-
-      <section class="our-sponsor-client-area section-padding-100">
+      <section style="" class="our-sponsor-client-area section-padding-100">
         <div class="container">
           <div class="row">
             <!-- Heading -->
@@ -511,7 +385,7 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row p-5">
             <div class="col-12 mx-auto text-center">
               <!-- Our Sponsor area -->
               <div class="our-sponsor-area row">
@@ -553,6 +427,299 @@
         </div>
       </section>
 
+      <section style="padding-top: 8vh;" id="register" class="section faq">
+        <div class="container p-5">
+          <div class="row">
+            <div class="col-md-8 mx-auto">
+              <div class="comment-form-wrap pt-5">
+                <h1 class="mb-5">Registration</h1>
+                <div class="dropdown">
+                  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select Team Size
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" id="select-3">3</a>
+                    <a class="dropdown-item" id="select-4">4</a>
+                    <a class="dropdown-item" id="select-5">5</a>
+                  </div>
+                </div>
+                <form id="team-details" style="padding-top: 25px;">
+                  <div class="leader-details" style="display: none;">
+                    <div class="form-group">
+                      <label for="name">Team Leader Name *</label>
+                      <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="email"> Team Leader Email *</label>
+                          <input type="email" class="form-control" id="email">
+                        </div>
+                      </div>
+                      <div class="col-6">                
+                        <div class="form-group">
+                          <label for="mob">Team Leader Mobile Number *</label>
+                          <input type="tel" class="form-control" id="mob">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="member1-details" style="display: none;">
+                    <div class="form-group">
+                      <label for="name">Member 1 Name *</label>
+                      <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="email">Member 1 Email *</label>
+                          <input type="email" class="form-control" id="email">
+                        </div>
+                      </div>
+                      <div class="col-6">                
+                        <div class="form-group">
+                          <label for="mob">Member 1 Mobile Number *</label>
+                          <input type="tel" class="form-control" id="mob">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="member2-details" style="display: none;">
+                    <div class="form-group">
+                      <label for="name">Member 2 Name *</label>
+                      <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="email">Member 2 Email *</label>
+                          <input type="email" class="form-control" id="email">
+                        </div>
+                      </div>
+                      <div class="col-6">                
+                        <div class="form-group">
+                          <label for="mob">Member 2 Mobile Number *</label>
+                          <input type="tel" class="form-control" id="mob">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="member3-details" style="display: none;">
+                    <div class="form-group">
+                      <label for="name">Member 3 Name *</label>
+                      <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="email">Member 3 Email *</label>
+                          <input type="email" class="form-control" id="email">
+                        </div>
+                      </div>
+                      <div class="col-6">                
+                        <div class="form-group">
+                          <label for="mob">Member 3 Mobile Number *</label>
+                          <input type="tel" class="form-control" id="mob">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="member4-details" style="display: none;">
+                    <div class="form-group">
+                      <label for="name">Member 4 Name *</label>
+                      <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="form-group">
+                          <label for="email">Member 4 Email *</label>
+                          <input type="email" class="form-control" id="email">
+                        </div>
+                      </div>
+                      <div class="col-6">                
+                        <div class="form-group">
+                          <label for="mob">Member 4 Mobile Number *</label>
+                          <input type="tel" class="form-control" id="mob">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group leader-details" style="display: none;">
+                    <input type="submit" class="btn py-3 px-4 btn-secondary btn-block">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style="padding-top: 8vh;" id="faq" class="section faq">
+        <div class="container p-5">
+          <div class="row">
+            <div class="col-md-12 text-center heading-section ftco-animate">
+              <h1 class="md-5">FAQS</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> What is the price of the
+                        ticket ?</a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      <h3>Hello</h3>
+                      <p>Lorem Ipsum</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> What is included in my
+                        ticket ?</a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">Hello</div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Office address ?</a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                    aria-labelledby="headingThree">
+                    <div class="panel-body">Hello</div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title">
+                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> How should I dress
+                        ?</a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                    <div class="panel-body">Hello</div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFive">
+                    <h4 class="panel-title">
+                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> I have specific
+                        questions that are not addressed here. Who can help me ?</a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                    <div class="panel-body">Hello</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> What is the price of the
+                        ticket ?</a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      <h3>Hello</h3>
+                      <p>Lorem Ipsum</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> What is included in my
+                        ticket ?</a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">Hello</div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Office address ?</a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                    aria-labelledby="headingThree">
+                    <div class="panel-body">Hello</div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title">
+                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> How should I dress
+                        ?</a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                    <div class="panel-body">Hello</div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFive">
+                    <h4 class="panel-title">
+                      <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> I have specific
+                        questions that are not addressed here. Who can help me ?</a>
+                    </h4>
+                  </div>
+
+                  <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                    <div class="panel-body">Hello</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
 
 
       <footer class="ftco-footer ftco-bg-dark ftco-section">
@@ -574,8 +741,6 @@
           </div>
           <div class="row">
             <div class="col-md-12 text-center">
-
-
               <p>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 Copyright &copy;
@@ -591,10 +756,7 @@
       </footer>
 
       <!-- loader -->
-      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-          <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-          <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-            stroke="#F96D00" /></svg></div>
+
 
     </div>
 
@@ -610,17 +772,52 @@
   <script src="js/jquery.stellar.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/jquery.animateNumber.min.js"></script>
   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    // Also can pass in optional settings block
+    var rellax = new Rellax('.rellax', {
+      speed: -2,
+      center: false,
+      wrapper: null,
+      round: true,
+      vertical: true,
+      horizontal: false
+    });
+  </script>
   <script src="js/particle.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBOBaLCHJMBkhaNTHagE-bTawwMQ2dURQk",
+    authDomain: "hackathon-details.firebaseapp.com",
+    databaseURL: "https://hackathon-details.firebaseio.com",
+    projectId: "hackathon-details",
+    storageBucket: "hackathon-details.appspot.com",
+    messagingSenderId: "396261591356",
+    appId: "1:396261591356:web:f335b35c439b6f67127639",
+    measurementId: "G-2X49CKTGTD"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
   <script src="js/main.js"></script>
+
 
 </body>
 
