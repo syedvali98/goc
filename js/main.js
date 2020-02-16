@@ -31,8 +31,63 @@ $(document).ready(function ($) {
 		$(".member4-details").css({ "display": "block" });
 	});
 
-	$("#team-details").click(function () {
-		alert("success");
+	$("#team-details").submit(function (e) {
+		e.preventDefault()
+
+		var teamleader = $("#name").val();
+		var teamemail = $("#email").val();
+		var teamnumber = $("#mob").val();
+
+		var memname  = $("#name1").val();
+		var memmail = $("#email1").val();
+		var memnumber = $("#mob1").val();
+
+		var memname2  = $("#name2").val();
+		var memmail2 = $("#email2").val();
+		var memnumber2 = $("#mob2").val();
+
+		var memname3  = $("#name3").val();
+		var memmail3 = $("#email3").val();
+		var memnumber3 = $("#mob3").val();
+
+		var memname4  = $("#name4").val();
+		var memmail4 = $("#email4").val();
+		var memnumber4 = $("#mob4").val();
+
+		 var database = firebase.database().ref("Registration")
+		 
+		 var register = {
+			 "Team Leader":{
+				 "name" : teamleader,
+				 "email": teamemail,
+				 "Mobile number":teamnumber
+			 },
+			 "member 1":{
+				"name" : memname,
+				"email": memmail,
+				"Mobile number":memnumber
+			 },
+			 "member 2":{
+				"name" : memname2,
+				"email": memmail2,
+				"Mobile number":memnumber2
+			 },
+			 "member 3":{
+				"name" : memname3,
+				"email": memmail3,
+				"Mobile number":memnumber3
+			 },
+			 "member 4":{
+				"name" : memname4,
+				"email": memmail4,
+				"Mobile number":memnumber4
+			 },
+			 
+		 }
+
+		 database.push(register);
+		 alert("success");
+		 document.querySelector('form').reset();
 
 	})
 

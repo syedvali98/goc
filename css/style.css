@@ -7528,7 +7528,7 @@ body {
     content: '';
     width: 400px;
     height: 600px;
-    border: 2px solid rgba(255, 255, 255, 0.05);
+    border: 2px solid #39ff14;
     z-index: -1;
     -webkit-transform: rotate(-30deg);
     -moz-transform: rotate(-30deg);
@@ -7543,7 +7543,7 @@ body {
     content: '';
     width: 400px;
     height: 400px;
-    border: 2px solid rgba(255, 255, 255, 0.05);
+    border: 2px solid #39ff14;
     z-index: -1;
     -webkit-transform: rotate(20deg);
     -moz-transform: rotate(20deg);
@@ -7997,7 +7997,7 @@ header {
           position: relative; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              font-size: 40px; } }
+              font-size: 12px; } }
         .owl-carousel.home-slider .slider-item .slider-text p {
           font-size: 20px;
           line-height: 1.5;
