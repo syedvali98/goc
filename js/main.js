@@ -13,6 +13,21 @@ $(document).ready(function ($) {
 		$(".member2-details").css({ "display": "block" });
 		$(".member3-details").css({ "display": "none" });
 		$(".member4-details").css({ "display": "none" });
+		$("#name").prop('required',true);
+		$("#email").prop('required',true);
+		$("#mob").prop('required',true);
+		$("#name1").prop('required',true);
+		$("#email1").prop('required',true);
+		$("#mob1").prop('required',true);
+		$("#name2").prop('required',true);
+		$("#email2").prop('required',true);
+		$("#mob2").prop('required',true);
+		$("#name3").prop('required',false);
+		$("#email3").prop('required',false);
+		$("#mob3").prop('required',false);
+		$("#name4").prop('required',false);
+		$("#email4").prop('required',false);
+		$("#mob4").prop('required',false);
 	});
 
 	$("#select-4").click(function () {
@@ -21,6 +36,21 @@ $(document).ready(function ($) {
 		$(".member2-details").css({ "display": "block" });
 		$(".member3-details").css({ "display": "block" });
 		$(".member4-details").css({ "display": "none" });
+		$("#name").prop('required',true);
+		$("#email").prop('required',true);
+		$("#mob").prop('required',true);
+		$("#name1").prop('required',true);
+		$("#email1").prop('required',true);
+		$("#mob1").prop('required',true);
+		$("#name2").prop('required',true);
+		$("#email2").prop('required',true);
+		$("#mob2").prop('required',true);
+		$("#name3").prop('required',true);
+		$("#email3").prop('required',true);
+		$("#mob3").prop('required',true);
+		$("#name4").prop('required',false);
+		$("#email4").prop('required',false);
+		$("#mob4").prop('required',false);
 	});
 
 	$("#select-5").click(function () {
@@ -29,6 +59,21 @@ $(document).ready(function ($) {
 		$(".member2-details").css({ "display": "block" });
 		$(".member3-details").css({ "display": "block" });
 		$(".member4-details").css({ "display": "block" });
+		$("#name").prop('required',true);
+		$("#email").prop('required',true);
+		$("#mob").prop('required',true);
+		$("#name1").prop('required',true);
+		$("#email1").prop('required',true);
+		$("#mob1").prop('required',true);
+		$("#name2").prop('required',true);
+		$("#email2").prop('required',true);
+		$("#mob2").prop('required',true);
+		$("#name3").prop('required',true);
+		$("#email3").prop('required',true);
+		$("#mob3").prop('required',true);
+		$("#name4").prop('required',true);
+		$("#email4").prop('required',true);
+		$("#mob4").prop('required',true);
 	});
 
 	$("#team-details").submit(function (e) {
