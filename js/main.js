@@ -34,6 +34,7 @@ $(document).ready(function ($) {
 	$("#team-details").submit(function (e) {
 		e.preventDefault()
 
+
 		var teamleader = $("#name").val();
 		var teamemail = $("#email").val();
 		var teamnumber = $("#mob").val();
@@ -53,6 +54,8 @@ $(document).ready(function ($) {
 		var memname4  = $("#name4").val();
 		var memmail4 = $("#email4").val();
 		var memnumber4 = $("#mob4").val();
+
+		
 
 		 var database = firebase.database().ref("Registration")
 		 
