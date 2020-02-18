@@ -7533,7 +7533,7 @@ body {
     content: '';
     width: 400px;
     height: 600px;
-    border: 2px solid #39ff14;
+    border: 2px solid #0c4901;
     z-index: -1;
     -webkit-transform: rotate(-30deg);
     -moz-transform: rotate(-30deg);
@@ -7548,7 +7548,7 @@ body {
     content: '';
     width: 400px;
     height: 400px;
-    border: 2px solid #39ff14;
+    border: 2px solid #0c4901;
     z-index: -1;
     -webkit-transform: rotate(20deg);
     -moz-transform: rotate(20deg);
