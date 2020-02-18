@@ -8185,7 +8185,9 @@ header {
     .exp-wrap .desc .location {
       margin-bottom: 0; }
   .exp-wrap .year {
-    width: 150px; }
+    width: 150px;
+    padding-left: 70px;
+   }
 
 .progress-wrap {
   margin-bottom: 30px; }
