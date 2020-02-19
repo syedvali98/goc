@@ -139,6 +139,70 @@ $(document).ready(function ($) {
 
 	})
 
+	$("#fintech").click(function(){
+		var data=`<p>Fin- tech is a new financial industry that applies technology to improve financial activities. It aims to compete with the traditional financial methods.
+		Your aim is to create an innovative idea that improves the financial service processes by proposing technological solutions according to different business situations. The key areas of financial technology  you can work on is automate insurance, trading, banking services and risk management.
+	   </p>`
+		$('#exampleModalCenter').modal('toggle')
+		$("#modal").html(data)
+		$('#exampleModalCenterTitle').html('Fin-Tech')
+
+	})
+
+	$("#health").click(function(){
+		var data=`<p>As the global population continues to explode, the world’s healthcare systems are straining to keep up with increased demand. That’s why some outside-the-box thinking is necessary to keep the planet’s population healthy.
+		Keeping this in mind you have to create a prototyping health tech or an app. That helps to solve health care problems.
+		 </p>`
+		$('#exampleModalCenter').modal('toggle')
+		$("#modal").html(data)
+		$('#exampleModalCenterTitle').html('Health Care')
+
+
+	})
+
+	$("#vui").click(function(){
+		var data=`<p>It stands for  voice-user interface. A VUI is the interface to any speech application. VUIs have become more common and people are taking advantage of the value that these hands-free, eyes-free interfaces provide in many situations. Your aim is to design a VUI that is effective, matches the  user’s mental model of task, easier to use and provides help and guidance.
+		</p>`
+		$('#exampleModalCenter').modal('toggle')
+		$("#modal").html(data)
+		$('#exampleModalCenterTitle').html('VUI')
+
+
+	})
+
+	$("#smart").click(function(){
+		var data=`<p>The purpose of  Smart City is to drive economic growth and improve the quality of life of people by enabling local area development and harnessing technology that leads to Smart outcomes. Smart city is an urban area that uses different types of electronic Internet of Things (IoT) sensors to collect data and then use insights gained from that data to manage assets, resources and services efficiently. Your aim is to create a prototype that technological, economically and environmentally allows for real time responses.
+		</p>`
+		$('#exampleModalCenter').modal('toggle')
+		$("#modal").html(data)
+		$('#exampleModalCenterTitle').html('Smart City')
+
+
+	})
+
+	$("#block").click(function(){
+		var data=`<p>A block chain is a growing list of records, called blocks, that are linked using cryptography. Each block contains a cryptographic hash of the previous block. Block chain technology can be integrated into multiple areas </p>`
+		$('#exampleModalCenter').modal('toggle')
+		$("#modal").html(data)
+		$('#exampleModalCenterTitle').html('BlockChain')
+
+
+	})
+
+	$("#ai").click(function(){
+		var data=`<p>In computer science, artificial intelligence (AI), sometimes called machine intelligence, is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans.
+		Machine Learning(ML) can be explained as automating and improving the learning process of computers based on their experiences without being actually programmed i.e. without any human assistance. </p>`
+		$('#exampleModalCenter').modal('toggle')
+		$("#modal").html(data)
+		$('#exampleModalCenterTitle').html('AI/ML')
+
+
+	})
+
+
+
+
+
 	// Scrollax
 	$.Scrollax();
 
