@@ -6,6 +6,15 @@ AOS.init({
 $(document).ready(function ($) {
 
 	"use strict";
+	    $("#name").prop('required',true);
+		$("#email").prop('required',true);
+		$("#mob").prop('required',true);
+		$("#name1").prop('required',true);
+		$("#email1").prop('required',true);
+		$("#mob1").prop('required',true);
+		$("#name2").prop('required',true);
+		$("#email2").prop('required',true);
+		$("#mob2").prop('required',true);
 
 	$("#select-3").click(function () {
 		$(".leader-details").css({ "display": "block" });
