@@ -16,6 +16,9 @@ $(document).ready(function ($) {
 		$("#email2").prop('required',true);
 		$("#mob2").prop('required',true);
 
+		$("#teamsize").html("3")
+		
+
 	$("#select-3").click(function () {
 		$(".leader-details").css({ "display": "block" });
 		$(".member1-details").css({ "display": "block" });
@@ -37,6 +40,7 @@ $(document).ready(function ($) {
 		$("#name4").prop('required',false);
 		$("#email4").prop('required',false);
 		$("#mob4").prop('required',false);
+		$("#teamsize").html("3")
 	});
 
 	$("#select-4").click(function () {
@@ -60,6 +64,7 @@ $(document).ready(function ($) {
 		$("#name4").prop('required',false);
 		$("#email4").prop('required',false);
 		$("#mob4").prop('required',false);
+		$("#teamsize").html("4")
 	});
 
 	$("#select-5").click(function () {
@@ -83,6 +88,7 @@ $(document).ready(function ($) {
 		$("#name4").prop('required',true);
 		$("#email4").prop('required',true);
 		$("#mob4").prop('required',true);
+		$("#teamsize").html("5")
 	});
 
 	$("#team-details").submit(function (e) {
