@@ -6,6 +6,8 @@ AOS.init({
 $(document).ready(function ($) {
 
 	"use strict";
+	$("#cname").prop('required', true);
+	$("#tname").prop('required', true);
 	$("#name").prop('required', true);
 	$("#email").prop('required', true);
 	$("#mob").prop('required', true);
@@ -25,6 +27,8 @@ $(document).ready(function ($) {
 		$(".member2-details").css({ "display": "block" });
 		$(".member3-details").css({ "display": "none" });
 		$(".member4-details").css({ "display": "none" });
+		$("#cname").prop('required', true);
+		$("#tname").prop('required', true);
 		$("#name").prop('required', true);
 		$("#email").prop('required', true);
 		$("#mob").prop('required', true);
@@ -49,6 +53,8 @@ $(document).ready(function ($) {
 		$(".member2-details").css({ "display": "block" });
 		$(".member3-details").css({ "display": "block" });
 		$(".member4-details").css({ "display": "none" });
+		$("#cname").prop('required', true);
+		$("#tname").prop('required', true);
 		$("#name").prop('required', true);
 		$("#email").prop('required', true);
 		$("#mob").prop('required', true);
@@ -73,6 +79,8 @@ $(document).ready(function ($) {
 		$(".member2-details").css({ "display": "block" });
 		$(".member3-details").css({ "display": "block" });
 		$(".member4-details").css({ "display": "block" });
+		$("#cname").prop('required', true);
+		$("#tname").prop('required', true);
 		$("#name").prop('required', true);
 		$("#email").prop('required', true);
 		$("#mob").prop('required', true);
@@ -94,6 +102,7 @@ $(document).ready(function ($) {
 	$("#team-details").submit(function (e) {
 		e.preventDefault()
 
+        var collegename = $("#cname").val();
 		var teamname = $("#tname").val();
 		var teamleader = $("#name").val();
 		var teamemail = $("#email").val();
@@ -120,6 +129,7 @@ $(document).ready(function ($) {
 		var database = firebase.database().ref("Registration")
 
 		var register = {
+			"College Name":collegename,
 			"Team Name": teamname,
 			"details": {
 				"Team Leader": {
